@@ -1,0 +1,14 @@
+*{
+  margin: 0 auto;
+}
+.menu-cart-container{
+  display: flex;
+  flex-direction: column;
+  background-color: cornflowerblue;
+}
+.menu-positions{
+  background-color: bisque;
+}
+main{
+  display: flex;
+}
