@@ -40,13 +40,15 @@ main{
 }
 .menu-items{
   width: inherit;
+  
 }
 .menu-item{
   padding: 1em;
 }
 .cart{
- background-color:rgb(255, 214, 79);
+ background-color:rgb(243, 204, 76);
  width: inherit;
+ height: 250px;
 
 }
 .cart-header{
@@ -68,4 +70,32 @@ main{
 }
 a{
   color:rgb(21, 110, 174);
+}
+.white-text{
+  color: rgb(255, 255, 255);
+}
+.cart-button{
+  background: rgb(241, 186, 7);
+  border: none;
+  border-radius: 10%;
+  width: 125px;
+  height: 25px;
+  box-shadow: 2px 2px 2px rgb(28, 13, 2);
+}
+.cart-text{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  
+}
+.cart-text-cont{
+  display: flex;
+}
+.checkout{
+  display: flex;
+  flex-direction: column;
+}
+.name-product, .change-ingredients, .add-to-cart-and-price{
+  padding: 1em 0em;
 }

@@ -8,6 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ruda:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 
@@ -32,14 +35,21 @@
             </section>
             <section class="cart">
                 <header class="cart-header">
-                    <img src="лого-корзинки" alt="logo-cart">
-                    <h2>Корзина</h2>
+                    <img src="icons8-корзина-64.png" alt="logo-cart">
+                    <h2 class="white-text cart-text" style="font-size:2.5em;">Корзина</h2>
+
                 </header>
-                <b>Название</b>
-                <b>Количество</b>
+                <div class="cart-text-cont">
+                    <b class="cart-text">Название</b>
+                    <b class="cart-text">Количество</b>
+                </div>
+
                 <hr>
-                <b>Итого: 0 руб</b>
-                <a href="#">Оформить заказ</a>
+                <div class="checkout">
+                    <b class="cart-text">Итого: 0 руб</b>
+                    <a href="#">Оформить заказ</a>
+                </div>
+
 
             </section>
         </div>
@@ -47,13 +57,14 @@
             <h2 class="visually-hidden">Позиции меню</h2>
             <article class="menu-position">
                 <div class="product-info">
-                    <img class="logo" src="https://subway.ru/local/templates/artw_new/images/logo.png" alt="subway-logo">
-                    <img class="circle  "src="burg.png" alt="menu-product">
+                    <img class="logo" src="https://subway.ru/local/templates/artw_new/images/logo.png"
+                        alt="subway-logo">
+                    <img class="circle  " src="burg.png" alt="menu-product">
                     <h3>Название позиции</h3>
                     <hr>
                 </div>
                 <div class="ingredients">
-                    <a href="#">Ссылка на изм. ингредиентов</a>
+                    <a href="#" class="change-ingredients">Ссылка на изм. ингредиентов</a>
                     <hr>
                 </div>
                 <div class="add-to-cart-and-price">
@@ -64,19 +75,21 @@
                     <button class="btn+">+</button>
                     <output class="quantity-product">2</output>
                     <button class="btn-">-</button>
+                    <button class="cart-button white-text">В КОРЗИНУ</button>
 
                 </div>
 
             </article>
             <article class="menu-position">
                 <div class="product-info">
-                    <img class="logo" src="https://subway.ru/local/templates/artw_new/images/logo.png" alt="subway-logo">
+                    <img class="logo" src="https://subway.ru/local/templates/artw_new/images/logo.png"
+                        alt="subway-logo">
                     <img class="circle" src="burg.png" alt="menu-product">
-                    <h3>Название позиции</h3>
+                    <h3 class="name-product">Название позиции</h3>
                     <hr>
                 </div>
                 <div class="ingredients">
-                    <a href="#">Ссылка на изм. ингредиентов</a>
+                    <a href="#" class="change-ingredients">Ссылка на изм. ингредиентов</a>
                     <hr>
                 </div>
                 <div class="add-to-cart-and-price">
@@ -87,19 +100,21 @@
                     <button class="btn+">+</button>
                     <output class="quantity-product">2</output>
                     <button class="btn-">-</button>
+                    <button class="cart-button white-text">В КОРЗИНУ</button>
 
                 </div>
 
             </article>
             <article class="menu-position">
                 <div class="product-info">
-                    <img class="logo" src="https://subway.ru/local/templates/artw_new/images/logo.png" alt="subway-logo">
+                    <img class="logo" src="https://subway.ru/local/templates/artw_new/images/logo.png"
+                        alt="subway-logo">
                     <img class="circle" src="burg.png" alt="menu-product">
-                    <h3>Название позиции</h3>
+                    <h3 class="name-product">Название позиции</h3>
                     <hr>
                 </div>
                 <div class="ingredients">
-                    <a href="#">Ссылка на изм. ингредиентов</a>
+                    <a href="#" class="change-ingredients">Ссылка на изм. ингредиентов</a>
                     <hr>
                 </div>
                 <div class="add-to-cart-and-price">
@@ -110,19 +125,21 @@
                     <button class="btn+">+</button>
                     <output class="quantity-product">2</output>
                     <button class="btn-">-</button>
+                    <button class="cart-button white-text">В КОРЗИНУ</button>
 
                 </div>
 
             </article>
             <article class="menu-position">
                 <div class="product-info">
-                    <img class="logo" src="https://subway.ru/local/templates/artw_new/images/logo.png" alt="subway-logo">
+                    <img class="logo" src="https://subway.ru/local/templates/artw_new/images/logo.png"
+                        alt="subway-logo">
                     <img class="circle" src="burg.png" alt="menu-product">
-                    <h3>Название позиции</h3>
+                    <h3 class="name-product">Название позиции</h3>
                     <hr>
                 </div>
                 <div class="ingredients">
-                    <a href="#">Ссылка на изм. ингредиентов</a>
+                    <a href="#" class="change-ingredients">Ссылка на изм. ингредиентов</a>
                     <hr>
                 </div>
                 <div class="add-to-cart-and-price">
@@ -133,19 +150,21 @@
                     <button class="btn+">+</button>
                     <output class="quantity-product">2</output>
                     <button class="btn-">-</button>
+                    <button class="cart-button white-text">В КОРЗИНУ</button>
 
                 </div>
 
             </article>
             <article class="menu-position">
                 <div class="product-info">
-                    <img class="logo" src="https://subway.ru/local/templates/artw_new/images/logo.png" alt="subway-logo">
+                    <img class="logo" src="https://subway.ru/local/templates/artw_new/images/logo.png"
+                        alt="subway-logo">
                     <img class="circle" src="burg.png" alt="menu-product">
-                    <h3>Название позиции</h3>
+                    <h3 class="name-product">Название позиции</h3>
                     <hr>
                 </div>
                 <div class="ingredients">
-                    <a href="#">Ссылка на изм. ингредиентов</a>
+                    <a href="#" class="change-ingredients">Ссылка на изм. ингредиентов</a>
                     <hr>
                 </div>
                 <div class="add-to-cart-and-price">
@@ -156,19 +175,21 @@
                     <button class="btn+">+</button>
                     <output class="quantity-product">2</output>
                     <button class="btn-">-</button>
+                    <button class="cart-button white-text">В КОРЗИНУ</button>
 
                 </div>
 
             </article>
             <article class="menu-position">
                 <div class="product-info">
-                    <img class="logo" src="https://subway.ru/local/templates/artw_new/images/logo.png" alt="subway-logo">
+                    <img class="logo" src="https://subway.ru/local/templates/artw_new/images/logo.png"
+                        alt="subway-logo">
                     <img class="circle" src="burg.png" alt="menu-product">
-                    <h3>Название позиции</h3>
+                    <h3 class="name-product">Название позиции</h3>
                     <hr>
                 </div>
                 <div class="ingredients">
-                    <a href="#">Ссылка на изм. ингредиентов</a>
+                    <a href="#" class="change-ingredients">Ссылка на изм. ингредиентов</a>
                     <hr>
                 </div>
                 <div class="add-to-cart-and-price">
@@ -179,6 +200,7 @@
                     <button class="btn+">+</button>
                     <output class="quantity-product">2</output>
                     <button class="btn-">-</button>
+                    <button class="cart-button white-text">В КОРЗИНУ</button>
 
                 </div>
 
