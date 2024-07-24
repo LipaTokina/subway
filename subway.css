@@ -9,7 +9,8 @@
   font-style: normal;
 }
 body{
-  background-color: rgba(0, 0, 0, 0.083);
+  background-image: url(image/img);
+  background-attachment: fixed;
 }
 .header{
   display: flex;
@@ -53,6 +54,9 @@ main{
 }
 .cart-header{
   display: flex;
+  background-image: url(image/cart-background);
+  background-size: cover;
+  height: 80px;
 }
 .visually-hidden{
   display: none;
@@ -74,6 +78,7 @@ a{
 }
 .white-text{
   color: rgb(255, 255, 255);
+
 }
 .cart-button{
   background: rgb(241, 186, 7);
@@ -113,12 +118,34 @@ a{
 b.cart-text{
   margin-top: 1em;
 }
+.cart-image{
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
 .name-product, .change-ingredients, .add-to-cart-and-price{
-  padding: 1em 0;
+  padding: .5em 0;
 }
 
 hr {
   margin-top: 1em;
   
 }
-
+.price-quantity{
+  display: flex;
+  flex-direction: column;
+}
+.price{
+  color: rgb(230, 11, 11);
+  font-weight: 100;
+}
+.quantity-text{
+  text-transform: uppercase;
+  font-weight: 100;
+}
+.btn-plus, .btn-{
+  border-radius: 50px;
+  height: 20px;
+  width: 20px;
+  border: 1px solid rgb(170, 170, 170) ;
+}
